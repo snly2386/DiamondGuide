@@ -238,7 +238,7 @@ figure:nth-child(9){
 }
 
 .close-content {
-	position: fixed;
+	position: absolute;
 	z-index: 1000;
 	top: 0;
 	right: 10px;
