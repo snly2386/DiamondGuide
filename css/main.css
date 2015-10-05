@@ -75,33 +75,50 @@ figure div{
 	width: 100%;
 }
 
-
+figure{
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
 figure:nth-child(1){
-	background-image: url('../img/1.jpg')
+	background-image: url('../img/askandtell.png');
+	background-color: #B2CDDA;
+	background-size: 40%;
 }
 figure:nth-child(2){
-	background-image: url('../img/2.jpg');
-	background-position: center center;
+	background-image: url('../img/changepath.png');
+	background-color: #C4A9E2;
+	background-size: 50%;
+
+	/*background-position: center center;*/
 }
 figure:nth-child(3){
-	background-image: url('../img/3.jpg');
-	background-position: -211px 622px;
+	background-image: url('../img/changesupport.png');
+	background-color: #C8E5C8;
+	background-size: 50%;
+
+	/*background-position: -211px 622px;*/
 }
 figure:nth-child(4){
-	background-image: url('../img/4.jpg');
-	background-position: center center;
+	background-image: url('../img/checkin.png');
+	background-color: #9BF29B;
+	background-size: 42%;
+
+	/*background-position: center center;*/
 }
 figure:nth-child(5){
-	background-image: url('../img/5.jpg');
-	background-position: center top;
+	background-image: url('../img/visitprep.png');
+	background-color: #B5CEF2;
+	/*background-position: center top;*/
 }
 figure:nth-child(6){
-	background-image: url('../img/6.jpg');
-	background-position: 856px 643px;
+	background-image: url('../img/carepath.png');
+	background-size: 42%;
+	background-color: white;
 }
 figure:nth-child(7){
-	background-image: url('../img/7.jpg');
-	background-position: center right;
+	background-image: url('../img/casemanager.png');
+	background-size: cover;
+	background-position: 0px -81px;
 }
 figure:nth-child(8){
 	background-image: url('../img/8.jpg');
@@ -220,7 +237,7 @@ figure:nth-child(9){
 
 .content > div.show {
 	height: auto;
-	opacity: 1;	
+	opacity: 1;
 	-webkit-transition: opacity 0.6s;
 	transition: opacity 0.6s;
 }
@@ -286,6 +303,7 @@ figure:nth-child(9){
 
 .article-img-1{
 	background-image: url('../img/1.jpg');
+	background-position: 0px -50px;
 	background-size: cover;
 }
 .article-img-2{
@@ -297,27 +315,27 @@ figure:nth-child(9){
 	background-size: cover;
 }
 .article-img-4{
-	background-image: url('../img/4.jpg');
+	background-image: url('../img/1.jpg');
 	background-size: cover;
 }
 .article-img-5{
-	background-image: url('../img/5.jpg');
+	background-image: url('../img/2.jpg');
 	background-size: cover;
 }
 .article-img-6{
-	background-image: url('../img/6.jpg');
+	background-image: url('../img/3.jpg');
 	background-size: cover;
 }
 .article-img-7{
-	background-image: url('../img/7.jpg');
+	background-image: url('../img/1.jpg');
 	background-size: cover;
 }
 .article-img-8{
-	background-image: url('../img/8.jpg');
+	background-image: url('../img/2.jpg');
 	background-size: cover;
 }
 .article-img-9{
-	background-image: url('../img/9.jpg');
+	background-image: url('../img/3.jpg');
 	background-size: cover;
 }
 
@@ -404,7 +422,7 @@ p.article-text:nth-child(3) {
 .no-csstransitions .article-img,
 .no-csstransitions .article-text,
 .no-csstransforms3d .article-img,
-.no-csstransforms3d .article-text, 
+.no-csstransforms3d .article-text,
 .no-pointerevents .article-img,
 .no-pointerevents .article-text {
 	display: block !important;
